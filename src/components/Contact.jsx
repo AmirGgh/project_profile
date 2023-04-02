@@ -29,7 +29,7 @@ const Contact = () => {
           <div className='flex items-center'>
             <FaRegFileAlt className='text-gray-300 mr-2' />
             <p className='text-gray-300'>
-              <a href='https://drive.google.com/file/d/1FO7THyxw3aLlhxWcBuL4tPnImUpHbYPJ/view?usp=share_link' className='text-gray-300'>Resume</a>
+              <a href='https://drive.google.com/file/d/1r3EGOQ4H9MOOfTztnSiPm4If-crYHrjd/view?usp=share_link' className='text-gray-300'>Resume</a>
             </p>
           </div>
           <p className='py-6 text-gray-300'>// Contact me via...</p>
@@ -44,7 +44,12 @@ const Contact = () => {
           </div>
 
         </div>
-        {email ? <>
+        <div onClick={() => setEmail(!email)} className='flex items-center'>
+          <FaEnvelope className='text-gray-300 mr-2' />
+          <p className='text-gray-300'>Send email to amir.gez.p@gmail.com</p>
+        </div>
+        <br />
+        {email && <>
           <input
             className='bg-[#e1e8ff] p-2'
             type='text'
@@ -66,10 +71,7 @@ const Contact = () => {
           <button className='text-white border-2 hover:bg-pink-600 hover:border-pink-600 px-4 py-3 my-8 mx-auto flex items-center'>
             Let's Collaborate
           </button>
-        </> : <div onClick={() => setEmail(!email)} className='flex items-center'>
-          <FaEnvelope className='text-gray-300 mr-2' />
-          <p className='text-gray-300'>Send email to amir.gez.p@gmail.com</p>
-        </div>
+        </>
         }
       </form>
     </div>
