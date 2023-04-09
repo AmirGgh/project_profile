@@ -14,7 +14,7 @@ const Home = () => {
           I'm a Full Stack Developer.
         </h3>
         <p className='text-[#ecf1ff] py-4 max-w-[700px]'>
-          A Full Stack developer with pession to learn new things, Have a strong
+          A Full Stack developer with passion to learn new things, Have a strong
           understanding of JS, React, Node, and MongoDB. And allways seeking for
           new challenges!
         </p>

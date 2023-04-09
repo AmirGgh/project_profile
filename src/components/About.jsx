@@ -18,11 +18,10 @@ const About = () => {
             </p>
           </div>
           <div>
-            <p>
+            <p><br />
               I am passionate about building complex software that can be useful
               for other people with smart architecture and efficient
-              functionality. <br /> As a hobby love sports, market stock, and
-              code😃
+              functionality.
             </p>
           </div>
         </div>
