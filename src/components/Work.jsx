@@ -2,27 +2,18 @@
 import { data } from "../data/data.js";
 
 import React, { useState } from 'react';
-
+import 'bootstrap/dist/css/bootstrap.min.css';
+import { Container } from 'react-bootstrap'
 const Video = ({ name, image, video, display }) => {
   const [displayVideo, setDisplayVideo] = useState(false);
 
   return (
-    <div
-      className="relative "
-      onMouseEnter={() => setDisplayVideo(true)}
-      onMouseLeave={() => setDisplayVideo(false)}
-    >
-      <img src={image} alt={name} className="w-full rounded-md" />
-      {(displayVideo || display) && (
-        <video
-          src={video}
-          className="absolute z-0 inset-0 w-full h-full rounded-md object-cover"
-          autoPlay
-          loop
-          muted
-        />
-      )}
-    </div>
+    <Container>
+      <div class="ratio ratio-16x9">
+        <iframe src={video} title="YouTube video" allowFullScreen></iframe>
+      </div>
+
+    </Container>
   );
 };
 

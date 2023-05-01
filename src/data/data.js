@@ -17,7 +17,7 @@ export const data = [
     id: 2,
     name: "FullStack with graphQL (Apollo) - Shift Manager ",
     image: ShiftManager,
-    video: "https://firebasestorage.googleapis.com/v0/b/projects-portfolio-a06a7.appspot.com/o/shiftManager.mp4?alt=media&token=22017bbd-1268-47b0-87c8-a625422eef77",
+    video: "https://www.youtube.com/embed/YNR8oyyGicM",
     summary:
       "A web application was developed using GraphQL Apollo Server, with all server calls made using GraphQL. The application includes a shift management site that allows tracking of employees, departments, and shifts. The server manages databases realized by MongoDB, with the modeling of the objects carried out using Mongoose. Additionally, the server works with a JSON file of permissions for users, utilizing two layers of Business and Data to ensure secure access. JWT was used for application security. The client side was developed using React.js and Apollo client, linked to the GraphQL server. The application allows existing users to perform actions according to the limitations defined for them, with permissions distribution included.",
     github: "https://github.com/AmirGgh/shiftManager_Fullstack",
@@ -27,7 +27,7 @@ export const data = [
     id: 3,
     name: "React Application - Store Manager",
     image: StoreManager,
-    video: "https://firebasestorage.googleapis.com/v0/b/projects-portfolio-a06a7.appspot.com/o/storeManagerVideo.mp4?alt=media&token=ee9c7fee-0e55-402e-bd6e-a8b3eb0d11a4",
+    video: "https://www.youtube.com/embed/t9gmx_Ke_GY",
     summary:
       "The project involved developing a web application with a client side developed using React.js with MaterialUI, and all data and requests managed by Firebase using CRUD operations. The application includes an online store that is accessible to both non-customers and registered customers. Registered customers can make purchases while the admin has access to all information about purchases and users, and can create and edit products, as well as edit users and add products to users. For the admin, the site appears as a management site with a dashboard displaying all the relevant data.",
     live: "https://amirggh.github.io/storeManager",
