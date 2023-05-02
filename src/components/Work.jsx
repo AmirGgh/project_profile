@@ -22,15 +22,15 @@ const Project = ({ item }) => {
     <div onMouseEnter={() => setDisplay(true)}
       onMouseLeave={() => setDisplay(false)}>
       <div className="sm:flex justify-center rounded-md">
-        <span className="text-2xl font bold text-white tracking-wider  ">
+        <span className="text-2xl pb-1 font bold text-white tracking-wider  ">
           {item.name}
         </span>
       </div>
       <div className="md:flex justify-center ">
-        <div className="md:w-2/3  p-2 justify-center text-center ">
+        <div className="md:w-1/2 justify-center text-center ">
           <Video name={item.name} video={item.video} />
         </div>
-        <div className="md:w-2/3 p-2 justify-center text-center ">
+        <div className="md:w-1/2 p-2 justify-center text-center ">
           <p className="text-gray-200 text-sm md:text-base">{item.summary}</p>
           <div className="pt-8 text-center  ">
             <a href={item.github}>
