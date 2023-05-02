@@ -4,15 +4,13 @@ import { data } from "../data/data.js";
 import React, { useState } from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Container } from 'react-bootstrap'
-const Video = ({ name, image, video, display }) => {
-  const [displayVideo, setDisplayVideo] = useState(false);
+const Video = ({ video }) => {
 
   return (
     <Container>
       <div class="ratio ratio-16x9">
         <iframe src={video} title="YouTube video" allowFullScreen></iframe>
       </div>
-
     </Container>
   );
 };
@@ -30,7 +28,7 @@ const Project = ({ item }) => {
       </div>
       <div className="md:flex justify-center ">
         <div className="md:w-2/3  p-2 justify-center text-center ">
-          <Video name={item.name} image={item.image} video={item.video} display={display} />
+          <Video name={item.name} video={item.video} />
         </div>
         <div className="md:w-2/3 p-2 justify-center text-center ">
           <p className="text-gray-200 text-sm md:text-base">{item.summary}</p>

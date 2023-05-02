@@ -83,7 +83,7 @@ const Navbar = () => {
       {/* Social icons */}
       <div className='hidden lg:flex fixed flex-col top-[25%] left-0'>
         <ul>
-          <li className='w-[145px] h-[50px] flex justify-between items-center ml-[-95px] hover:ml-[-10px] duration-300 bg-blue-600'>
+          <li className='w-[145px] h-[50px] flex justify-between items-center ml-[-115px] hover:ml-[-10px] duration-300 bg-blue-600'>
             <a
               className='flex justify-between items-center w-full text-gray-300'
               href='https://www.linkedin.com/in/amir-gez/'
@@ -91,7 +91,7 @@ const Navbar = () => {
               Linkedin <FaLinkedin size={30} />
             </a>
           </li>
-          <li className='w-[145px] h-[50px] flex justify-between items-center ml-[-95px] hover:ml-[-10px] duration-300 bg-[#333333]'>
+          <li className='w-[145px] h-[50px] flex justify-between items-center ml-[-115px] hover:ml-[-10px] duration-300 bg-[#333333]'>
             <a
               className='flex justify-between items-center w-full text-gray-300'
               href='https://github.com/AmirGgh'
@@ -99,7 +99,7 @@ const Navbar = () => {
               Github <FaGithub size={30} />
             </a>
           </li>
-          <li className='w-[145px] h-[50px] flex justify-between items-center ml-[-95px] hover:ml-[-10px] duration-300  bg-[#3a87bb]'>
+          <li className='w-[145px] h-[50px] flex justify-between items-center ml-[-115px] hover:ml-[-10px] duration-300  bg-[#3a87bb]'>
             <a
               className='flex justify-between items-center w-full text-gray-300'
               href='https://drive.google.com/file/d/1r3EGOQ4H9MOOfTztnSiPm4If-crYHrjd/view?usp=share_link'
