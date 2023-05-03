@@ -29,7 +29,7 @@ const Contact = () => {
           <div className='flex items-center'>
             <FaRegFileAlt className='text-gray-300 mr-2' />
             <p className='text-gray-300'>
-              <a href='https://drive.google.com/file/d/1r3EGOQ4H9MOOfTztnSiPm4If-crYHrjd/view?usp=share_link' className='text-gray-300'>Resume</a>
+              <a href='https://drive.google.com/file/d/1vK2kfIUIIXdhR3RACpizfKtobaAcByAg/view?usp=share_link' className='text-gray-300'>Resume</a>
             </p>
           </div>
           <p className='py-6 text-gray-300'>// Contact me via...</p>
