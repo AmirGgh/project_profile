@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { FaPhone, FaLinkedin, FaEnvelope, FaGithub, FaRegFileAlt } from 'react-icons/fa';
+import { FaPhone, FaLinkedin, FaEnvelope, FaGithub, FaRegFileAlt, FaWhatsapp } from 'react-icons/fa';
 
 const Contact = () => {
   const [email, setEmail] = useState(false)
@@ -14,39 +14,38 @@ const Contact = () => {
         className='flex flex-col max-w-[600px] w-full h-full justify-center'
       >
         <div className='pb-8'>
-          <p className='text-4xl font-bold inline border-b-4  border-pink-600 text-gray-300'>
+          <p className='text-4xl  font-bold inline border-b-4  border-pink-600 text-gray-300'>
             Contact
           </p>
-          <p className='py-6 text-gray-300'>// More about me:</p>
-          <div className="flex p "><div></div><div></div></div>
-          <div className='flex items-center'>
+
+          <div className='flex items-center pt-3'>
+            <FaLinkedin className='text-gray-300 mr-2' />
+            <a href='https://www.linkedin.com/in/amir-gez/' className='text-gray-300 py-2 '> LinkedIn</a>
+          </div>
+          <div className='flex items-center '>
             <FaGithub className='text-gray-300 mr-2' />
-            <p className='text-gray-300'>
-              <a href='https://github.com/AmirGgh' className='text-gray-300'>My Github</a>
+            <p className='text-gray-300 pt-3 pb-1'>
+              <a href='https://github.com/AmirGgh' className='text-gray-300'>Github</a>
             </p>
           </div>
-          <br />
           <div className='flex items-center'>
-            <FaRegFileAlt className='text-gray-300 mr-2' />
-            <p className='text-gray-300'>
-              <a href='https://drive.google.com/file/d/1vK2kfIUIIXdhR3RACpizfKtobaAcByAg/view?usp=share_link' className='text-gray-300'>Resume</a>
+            <FaRegFileAlt className='text-gray-300  mr-2' />
+            <p className='text-gray-300 pt-3'>
+              <a href='https://drive.google.com/file/d/1vK2kfIUIIXdhR3RACpizfKtobaAcByAg/view?usp=share_link' className='text-gray-300  '> Resume</a>
             </p>
           </div>
-          <p className='py-6 text-gray-300'>// Contact me via...</p>
+          <div className='flex items-center'>
+            <FaWhatsapp className='text-gray-300 mr-2' />
+            <a className='text-gray-300 py-3' href="https://wa.me/0528703824">WhatsUp</a>
+          </div>
           <div className='flex items-center'>
             <FaPhone className='text-gray-300 mr-2' />
-            <p className='text-gray-300'>Phone number: 052-870-3824</p>
+            <p className='text-gray-300 pt-3'> +952-870-3824</p>
           </div>
-          <br />
           <div className='flex items-center'>
-            <FaLinkedin className='text-gray-300 mr-2' />
-            <a href='https://www.linkedin.com/in/amir-gez/' className='text-gray-300'>Send me a message in LinkedIn</a>
+            <FaEnvelope className='text-gray-300 mr-2 cursor-pointer' onClick={() => setEmail(!email)} />
+            <p className='text-gray-300 pt-3'> amir.gez.p@gmail.com</p>
           </div>
-
-        </div>
-        <div onClick={() => setEmail(!email)} className='flex items-center'>
-          <FaEnvelope className='text-gray-300 mr-2' />
-          <p className='text-gray-300'>Send email to amir.gez.p@gmail.com</p>
         </div>
         <br />
         {email && <>

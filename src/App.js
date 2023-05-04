@@ -10,7 +10,6 @@ function App() {
     <div className='h-full bg-gradient-to-r from-cyan-700 to-blue-900'>
       <Navbar />
       <Home />
-      <About />
       <Work />
       <Skills />
       <Contact />

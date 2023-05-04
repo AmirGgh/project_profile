@@ -15,7 +15,9 @@ const Home = () => {
         </h3>
         <p className='text-[#ecf1ff] py-4 max-w-[700px]'>
           A Full Stack developer with passion to learn new things, Have a strong
-          understanding of JS, React, Node, and MongoDB. And allways seeking for
+          understanding of JS, React, Node, and MongoDB. I am passionate about building complex software that can be useful
+          for other people with smart architecture and efficient
+          functionality. And allways seeking for
           new challenges!
         </p>
         <div>
